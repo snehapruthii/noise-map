@@ -10,7 +10,7 @@ function App() {
     const fetchData = async () => {
       try {
         // NOTE: Make sure your live Render URL is correctly placed here!
-        const res = await axios.get('https://YOUR_RENDER_URL_HERE.onrender.com/api/noise/latest');
+        const res = await axios.get('https://https://noise-backend-c2vi.onrender.com.onrender.com/api/noise/latest');
         setData(res.data);
       } catch (err) { console.log(err); }
     };
